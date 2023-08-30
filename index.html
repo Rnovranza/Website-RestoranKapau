@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restoran Kapau</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>RESTORAN KAPAU</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#outlet">Outlet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article class="banner" id="home">
+                <h1>Hi <span id="nama"></span>, Selamat Datang di Restoran Kapau!</h1>
+                <script>var nama = prompt("Siapa Nama Kamu ?");
+                    var element = (document.getElementById("nama").innerText = nama);
+                    console.log(element);</script>
+            </article>
+
+            <article class="card" id="menu">
+                <h2>Menu</h2>
+                <section>
+                    <h3>Rendang</h3>
+                    <img class="featured-image" src="assets/images/rendang.jpg" alt="rendang" />
+                    <p>
+                        Di Restoran Kapau, Rendang tidak hanya sekedar hidangan, tetapi juga kisah panjang tentang
+                        tekad dalam meramu rasa. Daging yang empuk, direndam dalam hamparan rempah khas, dan dimasak
+                        hingga mencapai puncak kelezatan, menghasilkan Rendang yang mengundang dalam setiap gigitannya.
+                        Pengalaman menggigit potongan daging yang mencair di mulut adalah perjalanan lewat waktu,
+                        membawa kita pada akar budaya Minangkabau yang kaya. Melalui Rendang, kami dengan bangga
+                        mengundang Anda untuk merasakan sentuhan keahlian tradisional yang telah kami wariskan dari
+                        generasi ke generasi, dalam setiap aroma dan cita rasa yang terpancar.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Ayam Bakar</h3>
+                    <img class="featured-image" src="assets/images/ayam bakar.jpg" alt="ayam bakar" />
+                    <p>
+                        Di Restoran Kapau, suatu pengalaman kuliner yang tak terlupakan menanti Anda dengan hidangan
+                        favorit kami yang tak tertandingi: Ayam Bakar. Melibatkan perpaduan kekayaan rasa tradisional
+                        dan penyajian modern yang memikat, Ayam Bakar kami adalah simbol kehangatan dan cinta terhadap
+                        kuliner Minangkabau. Setiap potongan ayam, direndam dalam bumbu-bumbu rahasia yang mencakup
+                        rempah-rempah alami dan bahan berkualitas, kemudian dipanggang hingga kecokelatan yang menggugah
+                        selera. Saat Anda menyantap setiap suapannya, cita rasa Ayam Bakar kami akan memanjakan lidah
+                        Anda dengan sentuhan asap yang lembut dan gurih. Dengan setiap gigitan, Anda akan merasakan
+                        harmoni sempurna antara rasa tradisional dan sentuhan inovasi kuliner modern. Ayam Bakar di
+                        Restoran Kapau bukan hanya sebuah hidangan, tetapi juga kisah yang membawa Anda dalam perjalanan
+                        kenikmatan rasa dan warisan budaya yang tak ternilai.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Ikan Bakar</h3>
+                    <img class="featured-image" src="assets/images/ikan bakar.jpg" alt="ikan bakar" />
+                    <p>
+                        Di puncak pengalaman kuliner di Restoran Kapau, hadir suatu hidangan yang merangkul kekayaan
+                        laut dan bumbu-bumbu tradisional: Ikan Bakar. Sebagai pilihan favorit yang tak terbantahkan,
+                        Ikan Bakar kami menghadirkan sentuhan yang luar biasa dari bawah laut ke atas meja Anda. Setiap
+                        potongan ikan segar, dibalut dalam campuran rempah-rempah dan bahan alami yang dipilih dengan
+                        teliti, kemudian dipanggang dengan kecermatan yang tinggi hingga menjadi kecokelatan yang
+                        menggugah selera. Setiap suapan Ikan Bakar kami membawa Anda dalam perjalanan rasa yang
+                        melampaui kata-kata, dengan perpaduan tekstur ikan yang lembut dan rasa bumbu yang meresap
+                        hingga ke dalam setiap seratnya. Dari deru api panggangan hingga aroma bumbu yang memikat, Ikan
+                        Bakar di Restoran Kapau adalah perwujudan dari dedikasi kami dalam menjaga rasa autentik
+                        Minangkabau yang memanjakan lidah dan hati setiap pengunjung kami.
+                    </p>
+                </section>
+            </article>
+
+            <article class="card" id="outlet">
+                <h2>Outlet</h2>
+                <p>Kami sangat senang berbagi dengan Anda tiga lokasi unggulan kami yang dapat Anda kunjungi</p>
+                <ul>
+                    <li>Jalan Boulevard Timur FX2/3</li>
+                    <p>Alamat pertama kami terletak di Jalan Boulevard Timur FX2/3, yang tersembunyi di antara
+                        hiruk-pikuk
+                        kota Kelapa Gading, Jakarta Utara. Kami dengan bangga mengundang Anda untuk merasakan kenikmatan
+                        kuliner kami yang autentik di lingkungan yang hangat dan ramah.</p>
+                    <li>Jalan Cempaka Putih Raya No.3</li>
+                    <p>Kunjungi lokasi kedua kami di Jalan Cempaka Putih Raya No.3, di mana kelezatan kuliner
+                        Minangkabau
+                        bersatu dengan nuansa elegan. Kami telah menyiapkan suasana yang sempurna untuk Anda menikmati
+                        makanan favorit kami.</p>
+                    <li>Jalan Darmawangsa No.5</a></li>
+                    <p>Terakhir, kami membuka pintu kami di Jalan Darmawangsa No.5, tempat kami menawarkan perpaduan
+                        kekayaan rasa dan nuansa klasik. Dalam lingkungan yang penuh karakter, kami mengundang Anda
+                        untuk
+                        mengeksplorasi beragam pilihan makanan yang kami tawarkan.</p>
+                </ul>
+                <p>
+
+                    Dengan penuh semangat, kami mengajak Anda untuk menjelajahi tiga lokasi kami yang menakjubkan ini.
+                    Setiap outlet kami memiliki ciri khasnya sendiri, tetapi semuanya memiliki satu hal yang sama:
+                    dedikasi kami untuk memberikan pengalaman kuliner yang luar biasa bagi Anda. Terima kasih telah
+                    memilih Restoran Kapau sebagai tujuan kuliner Anda, dan kami tak sabar untuk menyambut Anda di salah
+                    satu dari alamat-alamat istimewa kami.
+                </p>
+            </article>
+        </div>
+
+        <aside>
+            <article class="card profile">
+                <header>
+                    <h2>Owner</h2>
+                    <figure>
+                        <img src="assets/images/foto pribadi.jpg" alt="foto pribadi" />
+                        <figcaption>Foto Pemilik</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Rafi Novranza</td>
+                        </tr>
+                        <tr>
+                            <th>Usia</th>
+                            <td>21 Tahun</td>
+                        </tr>
+                        <tr>
+                            <th>No Telepon</th>
+                            <td>085717470656</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>rafinovranza29@gmail.com</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>"Rasa Warisan Minangkabau dalam Setiap Suapan"</p>
+    </footer>
+</body>
+
+</html>
